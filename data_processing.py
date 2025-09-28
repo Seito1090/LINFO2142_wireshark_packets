@@ -15,27 +15,27 @@ ipv6 = {
 }
 
 #Prep files here, filter my ips and make sure the sources are shown in a slightly more compact way 
-df1_dig = pd.read_csv("dig_querries.csv")
+df1_dig = pd.read_csv("csv/dig_querries.csv")
 df1_dig = df1_dig[df1_dig["Source"].isin(ipv6)]
 df1_dig["Source"] = df1_dig["Source"].replace(ip_to_isp)
 
-df2_dig = pd.read_csv("dig_part2.csv")
+df2_dig = pd.read_csv("csv/dig_part2.csv")
 df2_dig = df2_dig[df2_dig["Source"].isin(ipv6)]
 df2_dig["Source"] = df2_dig["Source"].replace(ip_to_isp)
 
-df3_udp_starlink = pd.read_csv("multiple_websites_tested.csv")
+df3_udp_starlink = pd.read_csv("csv/multiple_websites_tested.csv")
 df3_udp_starlink = df3_udp_starlink[df3_udp_starlink["Source"].isin(ipv6)]
 df3_udp_starlink["Source"] = df3_udp_starlink["Source"].replace(ip_to_isp)
 
-df4_delete = pd.read_csv("main_addr_delete.csv")
+df4_delete = pd.read_csv("csv/main_addr_delete.csv")
 df4_delete = df4_delete[df4_delete["Source"].isin(ipv6)]
 df4_delete["Source"] = df4_delete["Source"].replace(ip_to_isp)
 
-df5_delete_back = pd.read_csv("deleted_address_comes_back.csv")
+df5_delete_back = pd.read_csv("csv/deleted_address_comes_back.csv")
 df5_delete_back = df5_delete_back[df5_delete_back["Source"].isin(ipv6)]
 df5_delete_back["Source"] = df5_delete_back["Source"].replace(ip_to_isp)
 
-df6_both_used = pd.read_csv("Both_starlink_used.csv")
+df6_both_used = pd.read_csv("csv/Both_starlink_used.csv")
 df6_both_used = df6_both_used[df6_both_used["Source"].isin(ipv6)]
 df6_both_used["Source"] = df6_both_used["Source"].replace(ip_to_isp)
 
