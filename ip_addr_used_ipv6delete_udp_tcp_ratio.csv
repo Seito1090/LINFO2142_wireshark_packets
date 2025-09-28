@@ -1,0 +1,4 @@
+"level","parent","Topic / Item","Count","Average","Min Val","Max Val","Rate (ms)","Percent","Burst Rate","Burst Start",
+0,"","IPv6 Statistics/IP Protocol Types",4462,,,,0.1574,100%,5.5800,24.165
+1,"/IPv6 Statistics/IP Protocol Types","UDP",3174,,,,0.1119,71.13%,5.5800,24.165
+1,"/IPv6 Statistics/IP Protocol Types","TCP",1288,,,,0.0454,28.87%,2.9200,23.527

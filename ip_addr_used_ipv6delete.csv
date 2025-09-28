@@ -1,0 +1,20 @@
+"level","parent","Topic / Item","Count","Average","Min Val","Max Val","Rate (ms)","Percent","Burst Rate","Burst Start",
+0,"","IPv6 Statistics/All Addresses",4467,,,,0.1575,100%,5.5800,24.165
+1,"/IPv6 Statistics/All Addresses","fe80::9683:c4ff:fe22:da08",5,,,,0.0002,0.11%,0.0200,27.446
+1,"/IPv6 Statistics/All Addresses","fdcc:1705:6306:16::1",38,,,,0.0013,0.85%,0.0900,23.920
+1,"/IPv6 Statistics/All Addresses","fdcc:1705:6306:16:2c3c:8cd9:35be:5cd6",4457,,,,0.1572,99.78%,5.5800,24.165
+1,"/IPv6 Statistics/All Addresses","2a0e:f780:0:400::35",2,,,,0.0001,0.04%,0.0200,25.482
+1,"/IPv6 Statistics/All Addresses","2a0d:3344:18fa:4916:f109:b90c:1660:710d",10,,,,0.0004,0.22%,0.0200,13.536
+1,"/IPv6 Statistics/All Addresses","2a06:98c1:3107::6812:2715",9,,,,0.0003,0.20%,0.0500,14.338
+1,"/IPv6 Statistics/All Addresses","2a04:4e42::272",644,,,,0.0227,14.42%,1.9100,23.473
+1,"/IPv6 Statistics/All Addresses","2a00:1450:400c:c1d::5f",57,,,,0.0020,1.28%,0.3500,20.696
+1,"/IPv6 Statistics/All Addresses","2a00:1450:400c:c06::93",594,,,,0.0209,13.30%,1.1600,20.896
+1,"/IPv6 Statistics/All Addresses","2a00:1450:400c:c06::65",49,,,,0.0017,1.10%,0.3900,21.430
+1,"/IPv6 Statistics/All Addresses","2a00:1450:400c:c04::54",42,,,,0.0015,0.94%,0.3200,20.715
+1,"/IPv6 Statistics/All Addresses","2a00:1450:4001:82a::200e",3,,,,0.0001,0.07%,0.0100,1.673
+1,"/IPv6 Statistics/All Addresses","2803:f800:53::4",162,,,,0.0057,3.63%,0.2400,23.067
+1,"/IPv6 Statistics/All Addresses","2603:1026:c0d:1005::2",4,,,,0.0001,0.09%,0.0300,11.555
+1,"/IPv6 Statistics/All Addresses","2603:1006:1:a::2",93,,,,0.0033,2.08%,0.2500,20.708
+1,"/IPv6 Statistics/All Addresses","2600:9000:274d:5400:7:49a5:5fd5:9881",242,,,,0.0085,5.42%,0.7000,23.231
+1,"/IPv6 Statistics/All Addresses","2600:9000:2394:fe00:1d:d7f6:39d5:bd01",2511,,,,0.0886,56.21%,5.5000,24.165
+1,"/IPv6 Statistics/All Addresses","2600:1901:0:38d7::",12,,,,0.0004,0.27%,0.0400,16.608
